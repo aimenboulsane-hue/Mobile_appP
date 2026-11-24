@@ -12,6 +12,6 @@ mobile/.expo/
 mobile/dist/
 mobile/.env
 
-.claude/
+
 .DS_Store
 Thumbs.db
