@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/.venv/
+backend/smartpark.db
+backend/ml/model.joblib
+backend/ml/metrics.json
+backend/ml/data/parking_synthetic.csv
+
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/.env
+
+.claude/
+.DS_Store
+Thumbs.db
