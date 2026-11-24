@@ -27,27 +27,6 @@ Admin:
 - change the base / min / max price
 - manage spots, clients, bookings and subscriptions
 
-## How to run it
-
-You need Python 3.11 or 3.12, Node.js 20+, and the Expo Go app on your phone. The phone and the
-PC have to be on the same Wi-Fi.
-
-### Backend
-
-```bash
-cd backend
-python -m venv .venv
-.venv\Scripts\activate        # on Mac/Linux: source .venv/bin/activate
-pip install -r requirements.txt
-
-python ml/train.py   # trains the model
-python seed.py       # creates the database with demo data
-python app.py        # starts the API on port 5000
-```
-
-To check it works, open http://localhost:5000/api/health
-
-Run `train.py` before `seed.py`. You can run `seed.py` again anytime to reset the demo data.
 
 ### Mobile app
 
