@@ -1,14 +1,11 @@
 # SmartPark
 
-Mobile app for managing a parking lot, made for my Master 2 project.
+Mobile app for managing a parking lot
 
 Clients can see free spots, book a spot and pay (fake payment), or take a subscription.
 The admin manages the parking from the same app. I also trained a machine learning model that
 predicts how full the parking will be in the next days, and the app uses it to suggest prices:
 more expensive when it's going to be full, a promotion when it's going to be empty.
-
-The app is in French and prices are in DA.
-
 
 
 ## Features
