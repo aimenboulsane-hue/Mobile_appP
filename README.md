@@ -9,18 +9,7 @@ more expensive when it's going to be full, a promotion when it's going to be emp
 
 The app is in French and prices are in DA.
 
-## What's inside
 
-- `mobile/`: the app, React Native with Expo (SDK 58) and TypeScript
-- `backend/`: the API in Python with Flask, JWT for login, SQLAlchemy for the database
-- Database: SQLite by default (PostgreSQL also works, see below)
-- ML: pandas, scikit-learn, XGBoost
-
-```
-mobile app  --HTTP + JWT-->  Flask API  -->  SQLite / PostgreSQL
-                                 |
-                                 +--> ML model (model.joblib)
-```
 
 ## Features
 
@@ -77,9 +66,7 @@ browser.
 Leave `EXPO_PUBLIC_API_URL` empty in `mobile/.env`. The app will use the IP of the PC running
 Expo. If that doesn't work you can set it yourself:
 
-- real phone: `http://<your-pc-ip>:5000` (find it with `ipconfig`)
-- Android emulator: `http://10.0.2.2:5000`
-- browser: `http://localhost:5000`
+
 
 Restart `npx expo start` after changing `.env`.
 
